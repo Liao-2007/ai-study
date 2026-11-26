@@ -1,0 +1,13 @@
+interface:
+  display_name: ai-study
+  short_description: 读懂教材与截图，判断复习重点，推导公式并用综合题和分步评分检验掌握程度
+  default_prompt: 用 $ai-study 讲解我上传的这页教材，标出考点并出两道综合题，答案和评分标准放在最后。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
